@@ -195,23 +195,23 @@ console.log(`Totel amount  =  ${totel}`);
 
 
 
-// list.map( data => {
-//     if (data.name == 'Rupa Roy') {
+list.map( data => {
+    if (data.name == 'Rupa Roy') {
         
-//         console.log(`
-//         Id        : ${data.id} 
-//         Name      : ${data.name}  
-//         Age       : ${data.age}
-//         Taka      : ${data.fees}
-//         Location  : ${data.location}
+        console.log(`
+        Id        : ${data.id} 
+        Name      : ${data.name}  
+        Age       : ${data.age}
+        Taka      : ${data.fees}
+        Location  : ${data.location}
       
-//      `);
+     `);
   
      
   
     
-//     }
-// }) ;
+    }
+}) ;
 
 
 
