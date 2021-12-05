@@ -1,4 +1,4 @@
-const members = [
+const phone_book = [
 
     {
        
@@ -120,7 +120,7 @@ const members = [
 
 
 
-members.map(data => {
+phone_book.map(data => {
    
    if (data.name == 'Protish Biswas') {
        

@@ -154,61 +154,61 @@ const members = [
 
 
 
-// members.map( data   => {
+members.map( data   => {
   
-//     let name = data.name
-//     let age =data.age
-//     let gender =data.gender
-//     let location = data.location
+    let name = data.name
+    let age =data.age
+    let gender =data.gender
+    let location = data.location
 
-//     if ( age >= 0 && age <= 17 ) {
-//         console.log(`
-//         Name     :   ${name}
+    if ( age >= 0 && age <= 17 ) {
+        console.log(`
+        Name     :   ${name}
          
-//         Gender   :   ${gender}
+        Gender   :   ${gender}
 
-//         Location :   ${location}
+        Location :   ${location}
 
-//          Age      :   ${age}
+         Age      :   ${age}
 
-//         Message   : You are not allowed in this club .
+        Message   : You are not allowed in this club .
         
-//         `);
-//     }else if ( age >= 18 && age <= 40 ){
-//         console.log(`
+        `);
+    }else if ( age >= 18 && age <= 40 ){
+        console.log(`
         
-//         Name     :   ${name}
+        Name     :   ${name}
          
-//         Gender   :   ${gender}
+        Gender   :   ${gender}
 
-//         Location :   ${location}
+        Location :   ${location}
 
-//         Age      :   ${age}
+        Age      :   ${age}
 
-//         Mesage    : Welcome to our club .
+        Mesage    : Welcome to our club .
         
-//         `);
-//     }else if ( age > 41 ) {
-//         console.log(`
+        `);
+    }else if ( age > 41 ) {
+        console.log(`
         
-//         Name     :   ${name}
+        Name     :   ${name}
          
-//         Gender   :   ${gender}
+        Gender   :   ${gender}
 
-//         Location :   ${location}
+        Location :   ${location}
 
-//         Age      :   ${age}
+        Age      :   ${age}
         
-//         Message  :  Age is over . You are not allowed in our club .
-//         `);
-//     }
+        Message  :  Age is over . You are not allowed in our club .
+        `);
+    }
   
     
      
     
        
   
-// }) ;
+}) ;
 
 
 members.map(data => {
