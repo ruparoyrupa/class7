@@ -171,7 +171,7 @@ const list = [
 
 ] ;
 
-let totel = 0 ;
+let totel2 = 0 ;
 list.map( data => {
      
    console.log(`
@@ -183,7 +183,7 @@ list.map( data => {
     
    `);
 
-   totel = totel+data.fees
+   totel = totel2+data.fees
 
 
 }) ;
